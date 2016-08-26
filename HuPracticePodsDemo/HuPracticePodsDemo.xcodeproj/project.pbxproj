@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83722CCD1D7031F5001CFF04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83722CCC1D7031F5001CFF04 /* main.m */; };
+		83722CD01D7031F5001CFF04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83722CCF1D7031F5001CFF04 /* AppDelegate.m */; };
+		83722CD31D7031F6001CFF04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83722CD21D7031F6001CFF04 /* ViewController.m */; };
+		83722CD61D7031F6001CFF04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83722CD41D7031F6001CFF04 /* Main.storyboard */; };
+		83722CD81D7031F6001CFF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83722CD71D7031F6001CFF04 /* Assets.xcassets */; };
+		83722CDB1D7031F6001CFF04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83722CD91D7031F6001CFF04 /* LaunchScreen.storyboard */; };
+		83722CE61D7031F6001CFF04 /* HuPracticePodsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83722CE51D7031F6001CFF04 /* HuPracticePodsDemoTests.m */; };
+		83722CF11D7031F6001CFF04 /* HuPracticePodsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83722CF01D7031F6001CFF04 /* HuPracticePodsDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83722CE21D7031F6001CFF04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83722CC01D7031F5001CFF04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83722CC71D7031F5001CFF04;
+			remoteInfo = HuPracticePodsDemo;
+		};
+		83722CED1D7031F6001CFF04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83722CC01D7031F5001CFF04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83722CC71D7031F5001CFF04;
+			remoteInfo = HuPracticePodsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83722CC81D7031F5001CFF04 /* HuPracticePodsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuPracticePodsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83722CCC1D7031F5001CFF04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83722CCE1D7031F5001CFF04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83722CCF1D7031F5001CFF04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83722CD11D7031F6001CFF04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83722CD21D7031F6001CFF04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83722CD51D7031F6001CFF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83722CD71D7031F6001CFF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83722CDA1D7031F6001CFF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83722CDC1D7031F6001CFF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83722CE11D7031F6001CFF04 /* HuPracticePodsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuPracticePodsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83722CE51D7031F6001CFF04 /* HuPracticePodsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuPracticePodsDemoTests.m; sourceTree = "<group>"; };
+		83722CE71D7031F6001CFF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83722CEC1D7031F6001CFF04 /* HuPracticePodsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuPracticePodsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83722CF01D7031F6001CFF04 /* HuPracticePodsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuPracticePodsDemoUITests.m; sourceTree = "<group>"; };
+		83722CF21D7031F6001CFF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83722CC51D7031F5001CFF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83722CDE1D7031F6001CFF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83722CE91D7031F6001CFF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83722CBF1D7031F5001CFF04 = {
+			isa = PBXGroup;
+			children = (
+				83722CCA1D7031F5001CFF04 /* HuPracticePodsDemo */,
+				83722CE41D7031F6001CFF04 /* HuPracticePodsDemoTests */,
+				83722CEF1D7031F6001CFF04 /* HuPracticePodsDemoUITests */,
+				83722CC91D7031F5001CFF04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83722CC91D7031F5001CFF04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83722CC81D7031F5001CFF04 /* HuPracticePodsDemo.app */,
+				83722CE11D7031F6001CFF04 /* HuPracticePodsDemoTests.xctest */,
+				83722CEC1D7031F6001CFF04 /* HuPracticePodsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83722CCA1D7031F5001CFF04 /* HuPracticePodsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				83722CCE1D7031F5001CFF04 /* AppDelegate.h */,
+				83722CCF1D7031F5001CFF04 /* AppDelegate.m */,
+				83722CD11D7031F6001CFF04 /* ViewController.h */,
+				83722CD21D7031F6001CFF04 /* ViewController.m */,
+				83722CD41D7031F6001CFF04 /* Main.storyboard */,
+				83722CD71D7031F6001CFF04 /* Assets.xcassets */,
+				83722CD91D7031F6001CFF04 /* LaunchScreen.storyboard */,
+				83722CDC1D7031F6001CFF04 /* Info.plist */,
+				83722CCB1D7031F5001CFF04 /* Supporting Files */,
+			);
+			path = HuPracticePodsDemo;
+			sourceTree = "<group>";
+		};
+		83722CCB1D7031F5001CFF04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83722CCC1D7031F5001CFF04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83722CE41D7031F6001CFF04 /* HuPracticePodsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				83722CE51D7031F6001CFF04 /* HuPracticePodsDemoTests.m */,
+				83722CE71D7031F6001CFF04 /* Info.plist */,
+			);
+			path = HuPracticePodsDemoTests;
+			sourceTree = "<group>";
+		};
+		83722CEF1D7031F6001CFF04 /* HuPracticePodsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83722CF01D7031F6001CFF04 /* HuPracticePodsDemoUITests.m */,
+				83722CF21D7031F6001CFF04 /* Info.plist */,
+			);
+			path = HuPracticePodsDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83722CC71D7031F5001CFF04 /* HuPracticePodsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83722CF51D7031F6001CFF04 /* Build configuration list for PBXNativeTarget "HuPracticePodsDemo" */;
+			buildPhases = (
+				83722CC41D7031F5001CFF04 /* Sources */,
+				83722CC51D7031F5001CFF04 /* Frameworks */,
+				83722CC61D7031F5001CFF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuPracticePodsDemo;
+			productName = HuPracticePodsDemo;
+			productReference = 83722CC81D7031F5001CFF04 /* HuPracticePodsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83722CE01D7031F6001CFF04 /* HuPracticePodsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83722CF81D7031F6001CFF04 /* Build configuration list for PBXNativeTarget "HuPracticePodsDemoTests" */;
+			buildPhases = (
+				83722CDD1D7031F6001CFF04 /* Sources */,
+				83722CDE1D7031F6001CFF04 /* Frameworks */,
+				83722CDF1D7031F6001CFF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83722CE31D7031F6001CFF04 /* PBXTargetDependency */,
+			);
+			name = HuPracticePodsDemoTests;
+			productName = HuPracticePodsDemoTests;
+			productReference = 83722CE11D7031F6001CFF04 /* HuPracticePodsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83722CEB1D7031F6001CFF04 /* HuPracticePodsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83722CFB1D7031F6001CFF04 /* Build configuration list for PBXNativeTarget "HuPracticePodsDemoUITests" */;
+			buildPhases = (
+				83722CE81D7031F6001CFF04 /* Sources */,
+				83722CE91D7031F6001CFF04 /* Frameworks */,
+				83722CEA1D7031F6001CFF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83722CEE1D7031F6001CFF04 /* PBXTargetDependency */,
+			);
+			name = HuPracticePodsDemoUITests;
+			productName = HuPracticePodsDemoUITests;
+			productReference = 83722CEC1D7031F6001CFF04 /* HuPracticePodsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83722CC01D7031F5001CFF04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Kris;
+				TargetAttributes = {
+					83722CC71D7031F5001CFF04 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					83722CE01D7031F6001CFF04 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 83722CC71D7031F5001CFF04;
+					};
+					83722CEB1D7031F6001CFF04 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 83722CC71D7031F5001CFF04;
+					};
+				};
+			};
+			buildConfigurationList = 83722CC31D7031F5001CFF04 /* Build configuration list for PBXProject "HuPracticePodsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83722CBF1D7031F5001CFF04;
+			productRefGroup = 83722CC91D7031F5001CFF04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83722CC71D7031F5001CFF04 /* HuPracticePodsDemo */,
+				83722CE01D7031F6001CFF04 /* HuPracticePodsDemoTests */,
+				83722CEB1D7031F6001CFF04 /* HuPracticePodsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83722CC61D7031F5001CFF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83722CDB1D7031F6001CFF04 /* LaunchScreen.storyboard in Resources */,
+				83722CD81D7031F6001CFF04 /* Assets.xcassets in Resources */,
+				83722CD61D7031F6001CFF04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83722CDF1D7031F6001CFF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83722CEA1D7031F6001CFF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83722CC41D7031F5001CFF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83722CD31D7031F6001CFF04 /* ViewController.m in Sources */,
+				83722CD01D7031F5001CFF04 /* AppDelegate.m in Sources */,
+				83722CCD1D7031F5001CFF04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83722CDD1D7031F6001CFF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83722CE61D7031F6001CFF04 /* HuPracticePodsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83722CE81D7031F6001CFF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83722CF11D7031F6001CFF04 /* HuPracticePodsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83722CE31D7031F6001CFF04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83722CC71D7031F5001CFF04 /* HuPracticePodsDemo */;
+			targetProxy = 83722CE21D7031F6001CFF04 /* PBXContainerItemProxy */;
+		};
+		83722CEE1D7031F6001CFF04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83722CC71D7031F5001CFF04 /* HuPracticePodsDemo */;
+			targetProxy = 83722CED1D7031F6001CFF04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83722CD41D7031F6001CFF04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83722CD51D7031F6001CFF04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83722CD91D7031F6001CFF04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83722CDA1D7031F6001CFF04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83722CF31D7031F6001CFF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83722CF41D7031F6001CFF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83722CF61D7031F6001CFF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HuPracticePodsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KQC.HuPracticePodsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83722CF71D7031F6001CFF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HuPracticePodsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KQC.HuPracticePodsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83722CF91D7031F6001CFF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuPracticePodsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KQC.HuPracticePodsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuPracticePodsDemo.app/HuPracticePodsDemo";
+			};
+			name = Debug;
+		};
+		83722CFA1D7031F6001CFF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuPracticePodsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KQC.HuPracticePodsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuPracticePodsDemo.app/HuPracticePodsDemo";
+			};
+			name = Release;
+		};
+		83722CFC1D7031F6001CFF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HuPracticePodsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KQC.HuPracticePodsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HuPracticePodsDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		83722CFD1D7031F6001CFF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HuPracticePodsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KQC.HuPracticePodsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HuPracticePodsDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83722CC31D7031F5001CFF04 /* Build configuration list for PBXProject "HuPracticePodsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83722CF31D7031F6001CFF04 /* Debug */,
+				83722CF41D7031F6001CFF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83722CF51D7031F6001CFF04 /* Build configuration list for PBXNativeTarget "HuPracticePodsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83722CF61D7031F6001CFF04 /* Debug */,
+				83722CF71D7031F6001CFF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83722CF81D7031F6001CFF04 /* Build configuration list for PBXNativeTarget "HuPracticePodsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83722CF91D7031F6001CFF04 /* Debug */,
+				83722CFA1D7031F6001CFF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83722CFB1D7031F6001CFF04 /* Build configuration list for PBXNativeTarget "HuPracticePodsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83722CFC1D7031F6001CFF04 /* Debug */,
+				83722CFD1D7031F6001CFF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83722CC01D7031F5001CFF04 /* Project object */;
+}
